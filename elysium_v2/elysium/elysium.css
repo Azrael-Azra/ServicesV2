@@ -1,0 +1,528 @@
+* {
+  font-family: 'Inter';
+  color: whitesmoke;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(fonts/static/Inter_28pt-Regular.ttf);
+}
+body {
+    background: linear-gradient(#1488CC, #2B32B2) no-repeat;
+    height: 100%;
+    margin: 0px;
+}
+
+.HomePageCont {
+  margin: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px; 
+}
+
+.AboutUsCont {
+    background: whitesmoke;   
+}
+
+.objectivesCont {
+    margin: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 120px;
+    padding-top: 70px;
+}
+
+/* =============================NavBar====================================*/
+.navBar {
+    display: flex;
+    background: rgba(0,0,0,0.2);
+    border-radius: 100px;
+    height: 70px;
+}
+#logo {
+    margin: auto;
+    margin-left: 0px;
+    width: 200px;
+    margin-top: 12.5px;
+}
+ul{
+    transition: transform 0.5s ease;
+    margin-left: auto;
+    margin-right: 20px;
+    justify-content: space-between;
+    text-align: end;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 0px;
+    align-items: center;
+}
+
+ul li{
+    text-decoration: none;
+    margin: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+li:last-child {
+    background-color: #F5A83C;
+    border: 15px solid #F5A83C;
+    width: 70px; 
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* =============================Hero====================================*/
+.homeContent {
+    display: flex;
+    margin-top: 10px;
+}
+.heroContent {
+    margin-top: 30px;
+    width: 40%
+}
+.child {
+    margin: 20px;
+}
+#hero {
+    font-weight: bolder;
+    line-height: 90%;
+    font-size: 50px;
+}
+#subHero{
+    font-weight: 200;
+    font-size: 14px;
+}
+.heroButtons {
+    display: flex;
+}
+.childButton {
+    margin: 20px
+}
+.childButton:last-child {
+    margin-left: 0px;
+}
+
+#playButton {
+    display: flex;
+}
+#pbChild{
+    margin-left: 60px;
+    margin-right:30px;
+}
+#playButton img {
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+}
+#playButton {
+    background: #F5A83C;
+    border: 2px solid transparent; 
+    border-radius: 5px;
+     padding: 10px 20px;
+     width: 300px;
+     margin-right: 10px;
+     font-weight: 700;
+     height: 20px;
+     font-size: 15px
+}
+#mapButton {
+   background: transparent;
+   border: 2px solid whitesmoke; 
+   border-radius: 5px;
+   border-radius: 5px;
+    padding: 10px 35px;
+    margin-right: 10px;
+    font-weight: 700;
+    height: 20px;
+    font-size: 15px;
+}
+.heroFooter {
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+.heroMap {
+    margin: auto;  
+}
+#mapImg{
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    scale: 1;
+    margin-right: 20px;
+}
+#Address {
+    font-weight: 600;
+    font-size: 12px;
+}
+#subAddress {
+    font-weight: 500;
+    font-size: 11px;
+}
+#details {
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 11px;
+}
+
+.spacer {
+    width: 10%;
+}
+
+.carrouselContent {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    width: 30%;
+    margin-right: 80px;
+}
+
+/* =============================AboutUs====================================*/
+.titleBar {
+    padding: 120px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: black;
+    display: flex;
+}
+.abtUsTxtColor {
+    color: rgb(32,32,32);
+}
+.abtUsTxtColor:first-child {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.abtUsTxtColor:last-child {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    text-align: end;
+}
+.AboutUsContent {
+    display: flex;
+}
+
+/* =============================Creators====================================*/
+.creators {
+    padding: 60px;
+    padding-left: 0px;
+}
+.spacerChar1, .spacerChar2, .spacerChar3, .spacerChar4{
+    display: flex;
+    margin: 20px;
+}
+.creatorImg {
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+}
+.creatorDivImg {
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    border: 3px solid #F5A83C;
+}
+.spacerCharLong {
+    width: 220px;
+}
+.spacerCharShort {
+    width: 120px;
+}
+
+/* =============================CreatorDetails====================================*/
+.creatorInformation {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 60px;
+}
+.creatorContainer {
+    background: #B9D3E8;
+    display: flex;
+    padding: 50px;
+    border-radius: 20px;
+}
+#creatorFontColor {
+    color: rgb(32,32,32);
+}
+.creatorspacer {
+    width: 10%;
+}
+.creatorInfoDetails {
+    width: 100%;
+}
+.creatorName {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.creatorDescription {
+    font-weight: 300;
+}
+
+/* =============================Objectives====================================*/
+.objTitle {
+    margin-bottom: 50px;
+    display: flex;
+    font-size: 30px;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.objContent {
+    display: flex;
+    margin: auto;
+}
+#imgObj {
+    width:400px;
+    height: 400px;
+}
+.objImg {
+    padding: 100x;
+}
+.spacerMVsion {
+    height: 30px;
+}
+
+.Mission {
+    background: #1A4A99;
+    padding: 40px;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.Vision {
+    background: #1A4A99;
+    padding: 40px;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.missionTitle {
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+}
+.missionCont {
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+.visionTitle {
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+}
+.visionCont {
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+.objMissionVision {
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    width: 100%;
+    margin-right: 80px;
+}
+
+
+/* =============================SERVICES========================================== */
+.service_section {
+    margin-bottom: 15vh;
+}
+
+.service_title {
+    text-align: center;
+ }
+ 
+ .service_content {
+     display: grid;
+     grid-template-columns: repeat(3,1fr) ;
+     background-color: white;
+     margin-bottom: 2vh;
+     margin: 1vh 30vh 2vh 30vh;
+     padding: 0vh 0vh 0vh 1vh;
+ }
+ 
+ .service_column {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ 
+ 
+
+ .service_content h1 {
+     color: #3962C3;
+     margin-left: -20vh;
+     margin-right: -10vh;
+ }
+ 
+ .service_content p {
+     color: black;
+     text-align: center;
+     margin-left: -10vh;
+     margin-right: -26vh;
+ }
+ 
+
+ .service_content .logo {
+     display: flex;
+     height: 12.5vh;
+     width: 13vh;
+     background-color: #F5A83C;
+     align-items: center;
+     justify-items: center;
+     margin-right: -32vh;
+ }
+
+ .service_content img{
+    margin: 1vh 1vh 1vh 3vh;
+ }
+ 
+ .service_content2 {
+     display: grid;
+     grid-template-columns: repeat(3,1fr) ;
+     background-color: white;
+     margin: 1vh 30vh 2vh 30vh;
+     padding: 0vh 0vh 0vh 1vh;
+ }
+ 
+ .service_column2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .service_content2 h1 {
+     color: #3962C3;
+     margin-left: -20vh;
+     margin-right: -10vh;
+ }
+ 
+ .service_content2 p {
+     color: black;
+     text-align: center;
+     margin-left: -10vh;
+     margin-right: -26vh;
+ }
+ 
+ .service_content2 .logo {
+    display: flex;
+    height: 12.5vh;
+    width: 13vh;
+    background-color: #F5A83C;
+    align-items: center;
+    justify-items: center;
+    margin-right: -32vh;
+}
+
+.service_content2 img{
+   margin: 1vh 1vh 1vh 3vh;
+}
+ 
+ .service_content3 {
+     display: grid;
+     grid-template-columns: repeat(3,1fr) ;
+     background-color: white;
+     margin-bottom: 10px;
+     margin: 1vh 30vh 2vh 30vh;
+     padding: 0vh 0vh 0vh 1vh;
+ }
+ 
+ .service_column3 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .service_content3 h1 {
+     color: #3962C3;
+     margin-left: -20vh;
+     margin-right: -10vh;
+ }
+ 
+ .service_content3 p {
+     color: black;
+     text-align: center;
+     margin-left: -10vh;
+     margin-right: -26vh;
+ }
+ 
+ .service_content3 .logo {
+    display: flex;
+    height: 12.5vh;
+    width: 13vh;
+    background-color: #F5A83C;
+    align-items: center;
+    justify-items: center;
+    margin-right: -32vh;
+}
+
+.service_content3 img{
+   margin: 1vh 1vh 1vh 3vh;
+}
+
+/*=================================Message Us===============================*/
+
+.MessageUsContent {
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    margin: 1vh 5vh 2vh 30vh;
+    padding-right: 2vh;
+}
+ 
+.MessageUsContent .column1 {
+    justify-content: space-between;
+}
+
+.MessageUsContent .column1 .fb,
+.MessageUsContent .column1 .gml,
+.MessageUsContent .column1 .twitter {
+    margin-right: 3vh;
+}
+
+.MessageUsContent textarea {
+    width: 71%;
+    height: 30vh;
+    margin-bottom: 1vh;
+    color: #000;
+    padding-bottom: 10vh;
+    box-sizing: border-box;
+    vertical-align: top;
+    resize: none;
+    font-size: 20px;
+}
+
+.MessageUsContent textarea::placeholder {
+    font-style: italic;
+}
+
+.MessageUsContent button {
+    width: 71.2%;
+    background-color: #0000004b;
+    border-radius: 15vh;
+    border-color: transparent;
+    font-size: 30px;
+}
